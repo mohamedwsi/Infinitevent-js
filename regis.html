@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form id="registerform">
+        <label for="firstname">first name</label>
+        <input type="text" id="firstname" placeholder="firstname"> <br><br>
+        <label for="lastname">last name</label>
+        <input type="text" id="lastname" placeholder="lastname"><br><br>
+        <label for="username">user name</label>
+        <input type="text" id="username" placeholder="username"><br><br>
+        <label for="password">password</label>
+        <input type="password" name="pass" id="password"><br><br>
+        <button type="submit">Submit</button>
+    </form> -->
+
+    <center><div class="form-container">
+        <p class="title">sign up</p>
+        <form class="form" id="registerform">
+          <input type="text" class="input" id="username" placeholder="@Username" required>
+          <input type="email" class="input" id="email" placeholder="Email" required>
+          <input type="password" class="input" id="password" placeholder="create Password" required>
+          <input type="password" class="input" id="confirmpassword" placeholder="Confirm Password" required>
+          <p class="notmatch" style="color: red;"></p>
+          <button class="form-btn" type="submit">save</button>
+        </form>
+        <p class="sign-up-label">
+          already have an account?<a href="login.html"><span class="sign-up-link">Sign in</span></a>
+        </p>
+      </div>
+    </center>
+    <script src="js/regis.js"></script>
+</body>
+</html>
